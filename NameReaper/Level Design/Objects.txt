@@ -45,8 +45,28 @@ STATIC OBJECTS
   Attributes
   can be pushed by npc/animals.  also may roll.
 
-NPCs
+-plants(grass bushes trees flowers?)
+-house exterior
+-road
+-shoreline
+-grass floor tile
+-dock(with a boat for the caravan
+-fence(wood/chainlink)
+-fence gate
+-cave enterance (big)
 
+-Rocks (obstacle and ground scatter)
+-stalactites/stalagmites
+-Ore deposite
+-Mine carts/rails
+-other Cave-y things
+-Pool of water(for minnows in the cave)
+
+NPCs
+-Wizzards
+-Caraven
+-town people
+-Miners
 
 ANIMALS
 -Minnow
@@ -66,3 +86,37 @@ ANIMALS
   attack	:yes
   Attributes
   attacks things that think they are minnows
+-Horse/ with carrige
+-Sheep
+-Birds
+-Bugs(small)
+-Bat
+-Giant Earthworms
+
+water level
+objective - don't get eaten by sharks
+objects:
+sharks
+minnows
+squid/jellyfish
+merfolk
+divers
+
+environment
+coral (wall unit)
+shipwreck
+sand(floor)
+seaweed plant thing
+
+NASA
+chain link fence
+rockets
+scientists
+water tank dispenser thing (with a minnow in it)
+office buildings (non-enterable?)
+launch tower (climb to get into rocket and press launch to get into orbit)
+
+Space:
+earth
+starry background
+rocket ship from exterior
