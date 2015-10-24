@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{A0813678-F6E0-D0D8-D5F1-AAC486B78401}") = "NameReaper", "Assembly-CSharp.csproj", "{BC9836D6-A015-40DD-4C50-B1A103D68D5C}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameReaper.CSharp", "NameReaper.CSharp.csproj", "{64214C35-4981-E4AB-EC34-11ACF5DA334A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,32 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BC9836D6-A015-40DD-4C50-B1A103D68D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC9836D6-A015-40DD-4C50-B1A103D68D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC9836D6-A015-40DD-4C50-B1A103D68D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC9836D6-A015-40DD-4C50-B1A103D68D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64214C35-4981-E4AB-EC34-11ACF5DA334A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64214C35-4981-E4AB-EC34-11ACF5DA334A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64214C35-4981-E4AB-EC34-11ACF5DA334A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64214C35-4981-E4AB-EC34-11ACF5DA334A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-				GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
-		Policies = $0
-		$0.TextStylePolicy = $1
-		$1.inheritsSet = null
-		$1.scope = text/x-csharp
-		$0.CSharpFormattingPolicy = $2
-		$2.inheritsSet = Mono
-		$2.inheritsScope = text/x-csharp
-		$2.scope = text/x-csharp
-		$0.TextStylePolicy = $3
-		$3.FileWidth = 120
-		$3.TabWidth = 4
-		$3.IndentWidth = 4
-		$3.EolMarker = Unix
-		$3.inheritsSet = Mono
-		$3.inheritsScope = text/plain
-		$3.scope = text/plain
-	EndGlobalSection
-
 EndGlobal
