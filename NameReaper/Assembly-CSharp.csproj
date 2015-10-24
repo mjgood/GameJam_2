@@ -45,7 +45,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Code\Location.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Bowl_Glass.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Door.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Floor.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Lock.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Minnow.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Table.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Wall.cs" />
+     <Compile Include="Assets\Code\ObjectInformation.cs" />
      <Compile Include="Assets\Code\Player.cs" />
+     <Compile Include="Assets\Code\States.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>B:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
