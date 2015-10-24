@@ -1,9 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Bowl_Glass : MonoBehaviour {
-
-    RestState stateRest;
+public class Bowl_Glass : ObjectInformation {
 
     // Use this for initialization
     void Start()
@@ -15,6 +13,11 @@ public class Bowl_Glass : MonoBehaviour {
     void Update()
     {
         GetComponent<RestState>().rest();
+    }
+
+    public override RestState getRestState()
+    {
+        return GetComponent<Bowl_Glass_RestState>();
     }
 }
 

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1b0cb58eac8a1af4aa55484671018090
-timeCreated: 1445656910
+timeCreated: 1445677392
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -9,6 +9,12 @@ TextureImporter:
     21300004: objects1_1
     21300006: objects1_3
     21300008: objects1_4
+    21300010: objects1_5
+    21300012: objects1_6
+    21300014: objects1_7
+    21300016: objects1_8
+    21300018: objects1_9
+    21300020: objects1_10
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -59,13 +65,43 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4
-        y: 294
+        y: 295
         width: 24
-        height: 20
+        height: 22
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: objects1_2
+    - name: objects1_4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 288
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: objects1_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 292
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: objects1_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 256
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: objects1_1
       rect:
         serializedVersion: 2
         x: 44
@@ -75,7 +111,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: objects1_1
+    - name: objects1_7
       rect:
         serializedVersion: 2
         x: 78
@@ -85,7 +121,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: objects1_3
+    - name: objects1_2
       rect:
         serializedVersion: 2
         x: 110
@@ -95,13 +131,43 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: objects1_4
+    - name: objects1_3
       rect:
         serializedVersion: 2
-        x: 143
+        x: 142
         y: 303
         width: 4
         height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: objects1_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 256
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: objects1_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 256
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: objects1_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 257
+        width: 60
+        height: 30
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

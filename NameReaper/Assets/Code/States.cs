@@ -9,7 +9,7 @@ using System.Collections;
 
 public class MoveState : MonoBehaviour
 {
-    public virtual void interact()
+    public virtual void move()
     {
     }
 }

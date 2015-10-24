@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Floor : MonoBehaviour
+public class Floor : ObjectInformation
 {
     // Use this for initialization
     void Start()
@@ -13,6 +13,11 @@ public class Floor : MonoBehaviour
     void Update()
     {
         GetComponent<RestState>().rest();
+    }
+
+    public override RestState getRestState()
+    {
+        return GetComponent<Floor_RestState>();
     }
 }
 
