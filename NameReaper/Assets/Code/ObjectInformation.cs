@@ -23,6 +23,7 @@ public class ObjectInformation : MonoBehaviour {
 
     void OnMouseOver()
     {
+        GameObject.FindGameObjectWithTag("UIinfoMouseOver").GetComponent<InfoPanelText>().SetTextFromObject(this);
         if (Input.GetMouseButtonDown(0))
         {
             GameObject.FindGameObjectWithTag("UIpanel").GetComponent<ListPanel>().SetNameSelected(this);

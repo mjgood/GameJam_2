@@ -22,11 +22,23 @@ public class Door : ObjectInformation
     {
         return GetComponent<Door_RestState>();
     }
+    public override InteractionState getInteractionState()
+    {
+        return GetComponent<Door_InteractionState>();
+    }
 }
 
 public class Door_RestState : RestState
 {
     override public void rest()
     {
+    }
+}
+
+public class Door_InteractionState : InteractionState
+{
+    public override void interact(GameObject interactWith = null)
+    {
+        base.interact(interactWith);
     }
 }

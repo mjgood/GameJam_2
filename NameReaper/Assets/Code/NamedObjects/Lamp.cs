@@ -21,6 +21,10 @@ public class Lamp : ObjectInformation
     {
         return GetComponent<Lamp_RestState>();
     }
+    public override InteractionState getInteractionState()
+    {
+        return GetComponent<Lamp_InteractionState>();
+    }
 }
 
 public class Lamp_RestState : RestState

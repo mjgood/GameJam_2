@@ -20,6 +20,10 @@ public class Minnow : ObjectInformation
     {
         return GetComponent<Minnow_RestState>();
     }
+    public override MoveState getMoveState()
+    {
+        return GetComponent<Minnow_MoveState>();
+    }
 }
 
 public class Minnow_RestState : RestState

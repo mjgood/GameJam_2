@@ -8,7 +8,6 @@ public class Crate_Wooden : ObjectInformation
     void Start()
     {
         gameObject.AddComponent<Crate_Wooden_RestState>();
-        gameObject.AddComponent<Crate_Wooden_RestState>();
     }
 
     // Update is called once per frame
@@ -20,6 +19,10 @@ public class Crate_Wooden : ObjectInformation
     public override RestState getRestState()
     {
         return GetComponent<Crate_Wooden_RestState>();
+    }
+    public override InteractionState getInteractionState()
+    {
+        return GetComponent<Crate_Wooden_InteractionState>();
     }
 }
 

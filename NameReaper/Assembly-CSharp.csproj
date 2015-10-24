@@ -45,12 +45,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Code\CameraCode.cs" />
      <Compile Include="Assets\Code\Location.cs" />
      <Compile Include="Assets\Code\NamedObjects\Bowl_Glass.cs" />
      <Compile Include="Assets\Code\NamedObjects\Crate_Wooden.cs" />
      <Compile Include="Assets\Code\NamedObjects\Door.cs" />
      <Compile Include="Assets\Code\NamedObjects\Empty.cs" />
      <Compile Include="Assets\Code\NamedObjects\Floor.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Human1.cs" />
      <Compile Include="Assets\Code\NamedObjects\Lamp.cs" />
      <Compile Include="Assets\Code\NamedObjects\Lock.cs" />
      <Compile Include="Assets\Code\NamedObjects\Minnow.cs" />
@@ -69,13 +71,20 @@
  </Reference>
 =======
      <Compile Include="Assets\Code\UI\GameUI.cs" />
+     <Compile Include="Assets\Code\UI\InfoPanelText.cs" />
      <Compile Include="Assets\Code\UI\ListPanel.cs" />
      <Compile Include="Assets\Code\UI\TextDrag.cs" />
+<<<<<<< HEAD
 >>>>>>> refs/remotes/origin/master
 =======
      <Compile Include="Assets\Code\UI\GameUI.cs" />
      <Compile Include="Assets\Code\UI\ListPanel.cs" />
      <Compile Include="Assets\Code\UI\TextDrag.cs" />
+>>>>>>> refs/remotes/origin/master
+=======
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>B:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
 >>>>>>> refs/remotes/origin/master
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -85,6 +94,9 @@
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>B:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

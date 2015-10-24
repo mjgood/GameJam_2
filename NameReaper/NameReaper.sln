@@ -19,12 +19,16 @@ Global
 	EndGlobalSection
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 																															GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																																																										GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> refs/remotes/origin/master
 =======
 																																																										GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> refs/remotes/origin/master
+=======
+																																																																				GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> refs/remotes/origin/master
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0

@@ -1,0 +1,23 @@
+ABSTRACT:
+this is the level where the player learns the premise of the game, as well as the UI and how the puzzels are going to be solved.
+
+intended solution:
+ put minnow name on lock.  lock thinks it's a fish and thinks that it dies out of water and falls off door.  open door, level solved.
+ put door name on lock.  doors can be opened, and since the lock is not locked, open the lock, then open the door, level solved.
+
+ELEMENTS:
+environment
+ nameable
+   lock
+   door
+ non-nameable
+   wall
+   floor
+  
+NPCs
+  none
+animals : all nameable
+   minnow
+
+
+
