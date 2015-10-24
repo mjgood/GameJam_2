@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Table : MonoBehaviour {
+public class Table : ObjectInformation
+{
 
     RestState stateRest;
 
@@ -16,6 +17,11 @@ public class Table : MonoBehaviour {
     {
         GetComponent<RestState>().rest();
 	}
+
+    public override RestState getRestState()
+    {
+        return GetComponent<Table_RestState>();
+    }
 }
 
 public class Table_RestState : RestState

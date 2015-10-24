@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Door : MonoBehaviour {
+public class Door : ObjectInformation
+{
 
     public bool isLocked = false;
 
@@ -15,6 +16,11 @@ public class Door : MonoBehaviour {
     void Update()
     {
         GetComponent<RestState>().rest();
+    }
+
+    public override RestState getRestState()
+    {
+        return GetComponent<Door_RestState>();
     }
 }
 

@@ -2,7 +2,8 @@
 using System.Collections;
 using System;
 
-public class Minnow : MonoBehaviour {
+public class Minnow : ObjectInformation
+{
 
     void Start()
     {
@@ -14,6 +15,11 @@ public class Minnow : MonoBehaviour {
     {
         GetComponent<RestState>().rest();
     }
+
+    public override RestState getRestState()
+    {
+        return GetComponent<Minnow_RestState>();
+    }
 }
 
 public class Minnow_RestState : RestState
@@ -21,7 +27,7 @@ public class Minnow_RestState : RestState
     override public void rest()
     {
         // ***** FIX ME FIX ME FIX ME FIX ME FIX ME FIX ME FIX ME!!!!!!!!!! *****
-        Debug.Log(transform.localPosition);
+        //Debug.Log(transform.localPosition);
         try
         {
             if (transform.localPosition.x < -0.1f)
@@ -44,5 +50,14 @@ public class Minnow_RestState : RestState
         }
         catch (Exception e)
         { Debug.Log("no parent for minnow with object information"); }
+    }
+}
+
+// ***** TO DO MAKE MINNOW MOVE
+public class Minnow_MoveState : MoveState
+{
+    override public void move()
+    {
+
     }
 }

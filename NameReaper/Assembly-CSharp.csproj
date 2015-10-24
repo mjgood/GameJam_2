@@ -47,18 +47,30 @@
   <ItemGroup>
      <Compile Include="Assets\Code\Location.cs" />
      <Compile Include="Assets\Code\NamedObjects\Bowl_Glass.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Crate_Wooden.cs" />
      <Compile Include="Assets\Code\NamedObjects\Door.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Empty.cs" />
      <Compile Include="Assets\Code\NamedObjects\Floor.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Lamp.cs" />
      <Compile Include="Assets\Code\NamedObjects\Lock.cs" />
      <Compile Include="Assets\Code\NamedObjects\Minnow.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Plant_Potted.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Sofa.cs" />
      <Compile Include="Assets\Code\NamedObjects\Table.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Tree.cs" />
      <Compile Include="Assets\Code\NamedObjects\Wall.cs" />
      <Compile Include="Assets\Code\ObjectInformation.cs" />
      <Compile Include="Assets\Code\Player.cs" />
      <Compile Include="Assets\Code\States.cs" />
+<<<<<<< HEAD
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
+=======
+     <Compile Include="Assets\Code\UI\GameUI.cs" />
+     <Compile Include="Assets\Code\UI\ListPanel.cs" />
+     <Compile Include="Assets\Code\UI\TextDrag.cs" />
+>>>>>>> refs/remotes/origin/master
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -2,7 +2,8 @@
 using System.Collections;
 using System;
 
-public class Lock : MonoBehaviour {
+public class Lock : ObjectInformation
+{
 
     // Use this for initialization
     void Start()
@@ -32,6 +33,16 @@ public class Lock : MonoBehaviour {
             parentObject.isLocked = false;
         }
         catch (Exception e) { }
+    }
+
+    public override RestState getRestState()
+    {
+        return GetComponent<Lock_RestState>();
+    }
+
+    public override InteractionState getInteractionState()
+    {
+        return GetComponent<Lock_InteractionState>();
     }
 }
 
