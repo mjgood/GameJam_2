@@ -21,6 +21,10 @@ public class Plant_Potted : ObjectInformation
     {
         return GetComponent<Plant_Potted_RestState>();
     }
+    public override CombatState getCombatState()
+    {
+        return GetComponent<Plant_Potted_CombatState>();
+    }
 }
 
 public class Plant_Potted_RestState : RestState

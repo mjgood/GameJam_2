@@ -28,9 +28,9 @@ public class Location : MonoBehaviour
 
     public void Update()
     {
-        if (Selection.transforms.Length > 0 && !EditorApplication.isPlaying)
+        /*if (Selection.transforms.Length > 0 && !EditorApplication.isPlaying)
         if (doSnap && Selection.transforms[0].position != prevPosition)
-            snap();
+            snap();*/
     }
 
     public void snap()

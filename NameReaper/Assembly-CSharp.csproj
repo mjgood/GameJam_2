@@ -45,12 +45,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Code\CameraCode.cs" />
      <Compile Include="Assets\Code\Location.cs" />
      <Compile Include="Assets\Code\NamedObjects\Bowl_Glass.cs" />
      <Compile Include="Assets\Code\NamedObjects\Crate_Wooden.cs" />
      <Compile Include="Assets\Code\NamedObjects\Door.cs" />
      <Compile Include="Assets\Code\NamedObjects\Empty.cs" />
      <Compile Include="Assets\Code\NamedObjects\Floor.cs" />
+     <Compile Include="Assets\Code\NamedObjects\Human1.cs" />
      <Compile Include="Assets\Code\NamedObjects\Lamp.cs" />
      <Compile Include="Assets\Code\NamedObjects\Lock.cs" />
      <Compile Include="Assets\Code\NamedObjects\Minnow.cs" />
@@ -63,6 +65,7 @@
      <Compile Include="Assets\Code\Player.cs" />
      <Compile Include="Assets\Code\States.cs" />
      <Compile Include="Assets\Code\UI\GameUI.cs" />
+     <Compile Include="Assets\Code\UI\InfoPanelText.cs" />
      <Compile Include="Assets\Code\UI\ListPanel.cs" />
      <Compile Include="Assets\Code\UI\TextDrag.cs" />
  <Reference Include="UnityEngine.UI">

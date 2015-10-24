@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7d333646670985e418f6faed9fce5297
-timeCreated: 1445659464
+timeCreated: 1445709216
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -23,6 +23,9 @@ TextureImporter:
     21300032: terrain1_16
     21300034: terrain1_17
     21300036: terrain1_18
+    21300038: terrain1_19
+    21300040: terrain1_20
+    21300042: terrain1_21
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -127,7 +130,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: terrain1_6
       rect:
@@ -172,26 +175,6 @@ TextureImporter:
     - name: terrain1_10
       rect:
         serializedVersion: 2
-        x: 224
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: terrain1_11
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: terrain1_12
-      rect:
-        serializedVersion: 2
         x: 0
         y: 224
         width: 32
@@ -199,7 +182,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: terrain1_13
+    - name: terrain1_11
       rect:
         serializedVersion: 2
         x: 32
@@ -209,10 +192,30 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: terrain1_14
+    - name: terrain1_12
       rect:
         serializedVersion: 2
         x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: terrain1_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: terrain1_14
+      rect:
+        serializedVersion: 2
+        x: 160
         y: 224
         width: 32
         height: 32
@@ -254,6 +257,36 @@ TextureImporter:
         serializedVersion: 2
         x: 128
         y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: terrain1_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: terrain1_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: terrain1_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
         width: 32
         height: 32
       alignment: 0
