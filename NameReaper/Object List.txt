@@ -3,13 +3,30 @@ environment
 walls	: not nameable
 door	: 
 table	: nameable
-furnature
+furnature :nameable
+ chair
+ desk
+ table
+ sofa
+ 
 rocks	: nameable
 grass	: nameable
+tree
 
 NPCs
 band of wizards
+miners
+scuba divers
+submarine
+NASA scientist
+NASA guard
 
-animals(neutral)
+animals(neutral) : all nameable
 minnow
 cat
+snake
+earthworm
+
+shark
+jellyfish
+

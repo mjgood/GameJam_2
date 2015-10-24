@@ -1,0 +1,68 @@
+Object Details:
+STATIC OBJECTS
+-Wall
+  Actions
+  movement	:none
+  resting	:none
+  interaction	:none
+  attack	:none
+  Attributes
+-Floor
+  Actions
+  movement	:none
+  resting	:none
+  interaction	:none
+  attack	:none
+  Attributes
+-Door
+  Actions
+  movement	:none   changes to movement toggles open close?
+  resting	:stationary
+  interaction	:toggle open/closed
+  attack	:none
+  Attributes
+-Swinging Door
+  Actions
+  movement	:swings around, opening door
+  resting	:stationary
+  interaction	:none
+  attack	:swing  hits adjacent tiles
+  Attributes
+-Lock:
+  Actions
+  movement	:none
+  resting	:none
+  interaction	:toggle open/closed with key
+  attack	:none
+  Attributes
+  keeps parent from toggleing when closed
+-Chair w/ wheels
+  Actions
+  movement	:yes
+  resting	:stationary
+  interaction	:none
+  attack	:none
+  Attributes
+  can be pushed by npc/animals.  also may roll.
+
+NPCs
+
+
+ANIMALS
+-Minnow
+  Actions
+  movement	:yes
+  resting	:stationary
+  interaction	:stationary
+  attack	:stationary
+  Attributes
+  thinks it needs water
+
+-Cat
+  Actions
+  movement	:yes
+  resting	:sleep
+  interaction	:purr
+  attack	:yes
+  Attributes
+  attacks things that think they are minnows
