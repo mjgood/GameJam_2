@@ -1,0 +1,15 @@
+player
+environment
+walls	: not nameable
+door	: 
+table	: nameable
+furnature
+rocks	: nameable
+grass	: nameable
+
+NPCs
+band of wizards
+
+animals(neutral)
+minnow
+cat

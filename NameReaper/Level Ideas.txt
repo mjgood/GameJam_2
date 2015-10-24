@@ -1,0 +1,12 @@
+main objective/plot:
+the word is a sad place.  it would be much better off as something else.  as something that can change names, you could fix that.  if only you could get to space....
+
+tutorial-introduction of concepts
+house-introduction of baisic gameplay-allusion to objective/plot.  static objects only
+small town-intro to live objects(npcs, animals all neutral to player and eachother)
+
+earth level (cave mabye?  takes you off island to water level)	-intro to NPCs/animals that are hostile to eachother
+water level (you start on an island off the shore of cape canaveral)-intro to animals that are hostile to player
+fire level (this could be nasa's compound)			-intro to NPCs that are hostile to player
+air level (getting back to the island [helicopter maybe] from nasa)
+
