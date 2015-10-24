@@ -63,9 +63,15 @@
      <Compile Include="Assets\Code\Player.cs" />
      <Compile Include="Assets\Code\States.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
+=======
+     <Compile Include="Assets\Code\UI\GameUI.cs" />
+     <Compile Include="Assets\Code\UI\ListPanel.cs" />
+     <Compile Include="Assets\Code\UI\TextDrag.cs" />
+>>>>>>> refs/remotes/origin/master
 =======
      <Compile Include="Assets\Code\UI\GameUI.cs" />
      <Compile Include="Assets\Code\UI\ListPanel.cs" />
