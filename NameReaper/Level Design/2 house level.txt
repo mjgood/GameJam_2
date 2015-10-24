@@ -1,0 +1,57 @@
+ABSTRACT:
+door is unlocked, but is blocked from other side.  player must find another way out of the house.  doors to other parts of the house are present, openable in different ways.  house is old, abandon for years.  the whole place is empty except for somehow, the cat that still lives in here.  somehow it hasn't eaten the minnows yet.  why are there so many minnows in here anyway? [there should be at least one fish bowel with a minnow in it in each room]
+
+INTRODCTIONS:
+depletable names.
+inability to directly interact with environment - can only use toggel-able controls.  e.g. lights on off, doors open closed ect
+
+Rooms:
+-main living room.  - everything else branches off of this room
+ housecat
+-kitchen
+ sink - faucet on, overflowing on to floor
+ dish stack - breakable object
+-library
+ books
+ spinny chair with wheels
+-bathroom
+ sink
+ commode
+ shower
+-bedrooms
+ beds
+ lamp
+-study
+ lamp
+ books
+ desk
+ computer/moniter
+
+
+Intended solution:
+room entry order:
+Living room;
+  problem : solve tutorial
+Study;
+  problem : swinging door, no handle, no toggle.  player can't open it due to it's lack of a toggel
+  solution: turn the door into a cat.  cat has movement, so door swings open.
+  alternate: minnow next to door.  door swings open to attack the fish.
+Kitchen;
+  problem : door obstructed by desk
+  solution: put name chair with wheels on it.  tilt of house makes it roll out of the way
+Library;
+  problem : door is collapsed, rubble pile
+  solution: put a door name on the rubble pile.  interaction state transfers and the pile opens
+
+exit through kitchen.
+  problem : door is blocked on the other side by dirt.  the house is apparently in a sinkhole.
+  solution: ladder from library has an interaction state of climb.  apply to door, climb up it to the hole above the door and go through that.
+
+other things to put in.
+  name minnow to cat.  chases itself?
+  name cat minnow.  cat jumps into water (shower/sink/fish bowel)
+  after getting the lamp name, other interactable things can be made to glow
+  after getting shower/sink name, other interactable things can be made to produce water.
+  put cat name on wheeled chair.  chair now moves around like a cat.
+  books toggle.  open differently than other objects
+  door name on cat.  how does that open toggle work?

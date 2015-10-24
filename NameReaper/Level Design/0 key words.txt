@@ -1,0 +1,14 @@
+none : this state does nothing and cannot be overriden
+stationary: this state does nothing and can be overriden
+
+all objects have actions and attributes
+four actions:
+1movement
+2resting
+3interaction
+4attack
+
+attributes:
+hp
+speed
+special/other  -some[most] objects have other attributes
